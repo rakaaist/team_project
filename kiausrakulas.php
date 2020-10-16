@@ -53,6 +53,9 @@ if ($random_num === 1) {
             margin: 0 10px;
             letter-spacing: 3px;
         }
+        .selected {
+            color: indianred;
+        }
         .page-title {
             letter-spacing: 10px;
             color: black;
@@ -102,7 +105,7 @@ if ($random_num === 1) {
                 <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="kiausrakulas.php">Kiaušrakulas</a>
+                <a class="selected" href="kiausrakulas.php">Kiaušrakulas</a>
             </li>
             <li>
                 <a href="about.php">About</a>

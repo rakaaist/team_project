@@ -31,8 +31,11 @@
         body {
             background: url("https://images.unsplash.com/photo-1583434987437-1b9dcbe44c9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1929&q=80");
             background-size: cover;
+            height: 100vh;
         }
-
+        h1 {
+            margin: 40px 0 20px 0;
+        }
         h1,
         p {
             text-align: center;
@@ -42,20 +45,20 @@
             background-color: dimgrey;
             padding: 10px;
         }
-
-        .navigation-links {
-            display: flex;
-            justify-content: flex-end;
+        ul {
             list-style: none;
             padding-right: 50px;
         }
-
+        .navigation-links {
+            display: flex;
+            justify-content: flex-end;
+        }
         a {
             text-decoration: none;
+            color: sandybrown;
+            margin: 0 10px;
             letter-spacing: 3px;
-            padding: 0 10px;
         }
-
         .selected {
             color: indianred;
         }

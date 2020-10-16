@@ -43,14 +43,20 @@ if ($story_option === 1) {
         }
         ul {
             list-style: none;
+            padding-right: 50px;
         }
         .navigation-links {
             display: flex;
+            justify-content: flex-end;
         }
         a {
             text-decoration: none;
             color: sandybrown;
-            margin: 0px 10px;
+            margin: 0 10px;
+            letter-spacing: 3px;
+        }
+        .selected {
+            color: indianred;
         }
         main {
             text-align: center;
@@ -88,7 +94,7 @@ if ($story_option === 1) {
                 <a href="/kiausrakulas.php">Kiausrakulas</a>
             </li>
             <li>
-                <a href="/about.php">About</a>
+                <a class="selected" href="/about.php">About</a>
             </li>
             <li>
                 <a href="/contact.php">Contact</a>

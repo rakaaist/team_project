@@ -38,7 +38,7 @@ $random_background = rand(1, 2);
             background-image: url("<?php print $background_image; ?>");
             background-repeat: no-repeat;
             background-size: cover;
-            height: 800px;
+            height: 100vh;
         }
         article {
             padding: 60px;
@@ -57,7 +57,6 @@ $random_background = rand(1, 2);
         a {
             text-decoration: none;
             color: sandybrown;
-            margin: 0px 10px;
             letter-spacing: 3px;
         }
         h1 {
@@ -65,7 +64,7 @@ $random_background = rand(1, 2);
             color: sandybrown;
         }
         li {
-            padding: 5px 0px;
+            margin: 0 10px;
         }
         p {
             color: crimson;
