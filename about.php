@@ -92,7 +92,7 @@ if ($story_option === 1) {
                 <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="/kiausrakulas.php">Kiaušgitrakulas</a>
+                <a href="kiausrakulas.php">Kiaušgitrakulas</a>
             </li>
             <li>
                 <a class="selected" href="/about.php">About</a>
