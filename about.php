@@ -92,13 +92,13 @@ if ($story_option === 1) {
                 <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="kiausrakulas.php">Kiaušgitrakulas</a>
+                <a href="kiausrakulas.php">Kiaušrakulas</a>
             </li>
             <li>
-                <a class="selected" href="/about.php">About</a>
+                <a class="selected" href="about.php">About</a>
             </li>
             <li>
-                <a href="/contact.php">Contact</a>
+                <a href="contact.php">Contact</a>
             </li>
         </ul>
     </nav>
