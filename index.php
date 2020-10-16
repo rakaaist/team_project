@@ -26,7 +26,7 @@
         * {
             font-family: 'Orbitron', sans-serif;
             color: #151414;
-            margin: 0 auto;
+            margin: 0;
         }
         body {
             background: url("https://images.unsplash.com/photo-1583434987437-1b9dcbe44c9e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1929&q=80");
@@ -43,13 +43,6 @@
             padding: 10px;
         }
 
-        main {
-            background-image: url("<?php print $background_image; ?>");
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 800px;
-        }
-
         .navigation-links {
             display: flex;
             justify-content: flex-end;
@@ -60,23 +53,28 @@
         a {
             text-decoration: none;
             letter-spacing: 3px;
+            padding: 0 10px;
+        }
+
+        .selected {
+            color: indianred;
         }
     </style>
 </head>
 <body>
+    <header>
+        <nav>
+            <ul class="navigation-links">
+                <li><a class="selected" href="index.php">Home</a></li>
+                <li><a href="kiausrakulas.php">Kiaušrakulas</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <main>
-        <header>
-            <nav>
-                <ul class="navigation-links">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="kiausrakulas.php">Kiaušrakulas</a></li>
-                    <li><a href="about.php">About</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-    </main>
         <h1><?php print $team_name ?></h1>
         <p>Siuo metu laisvas kiausrakulas: <?php print $teammate_name ?></p>
+    </main>
 </body>
 </html>
