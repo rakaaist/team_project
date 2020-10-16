@@ -23,6 +23,7 @@ if ($story_option === 1) {
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="refresh" content="10" >
     <title>About</title>
     <style>
         * {
@@ -91,7 +92,7 @@ if ($story_option === 1) {
                 <a href="index.php">Home</a>
             </li>
             <li>
-                <a href="/kiausrakulas.php">Kiausrakulas</a>
+                <a href="/kiausrakulas.php">Kiaušgitrakulas</a>
             </li>
             <li>
                 <a class="selected" href="/about.php">About</a>

@@ -69,7 +69,7 @@
         <nav>
             <ul class="navigation-links">
                 <li><a class="selected" href="index.php">Home</a></li>
-                <li><a href="kiausrakulas.php">Kiaušrakulas</a></li>
+                <li><a href="kiaušrakulas.php">Kiaušrakulas</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="contact.php">Contact</a></li>
             </ul>
